@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <!--Head -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--Site Title-->
+    <title>
+      Mark Wrestling
+    </title>
+    <!-- -->
+
+    <!--Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!--flickity -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Instagram-->
+
+    <!--stylesheet -->
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link rel="stylesheet" href="./your-stylesheet.css" />
+
+    <!--font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css"
+    />
+
+    <!--Owl Carouse -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!--======================הכרטיסיות בסוף========================================= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- -->
+
+  <!--Body -->
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!--Nav bar Icon -->
+        <a class="navbar-brand" style="margin-left: 20px;">
+          <h2>
+            Mark
+            <span>Wrestling</span>
+          </h2>
+        </a>
+
+        <!--Nav Bar Sections -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="color: white;"
+              >
+                אודות
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">סיפורי הצלחה</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">גלריה</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">סוגי אימונים</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">בית</a>
+            </li>
+
+            <!-- -->
+
+            <!--Icon Right -->
+          </ul>
+
+          <form
+            class="d-flex"
+            style="
+              margin-right: 10px;
+              font-family: 'Dancing Script', cursive;
+              color: rgba(0, 140, 186, 1);
+            "
+          >
+            <h3>+972-546825863</h3>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- =======================main section========================================= -->
+
+    <!-- <section
+      class="discover py-5"
+      style="
+        margin-top: 0px;
+        margin-bottom: 100px;
+        width: 100vw;
+        height: 800px;
+        position: relative;
+      "
+    >
+      <video
+        autoplay
+        muted
+        loop
+        style="top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;"
+      >
+        <source src="./img/vid.mp4" type="video/mp4" />
+      </video>
+
+      <div
+        class="text-container"
+        style="
+          color: #ffffff;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          color: white;
+        "
+      >
+        <h1 style="color: white; margin-bottom: 0px;">
+          בואו להתאמן עם אלוף ישראל בהיאבקות מרק פופוב ולהכנס לכושר שיא
+        </h1>
+
+        <p>*האימונים מתאימים לכל הרמות ולכל הגילאים*</p>
+
+        <button type="button" class="btn1 mt-5">
+          הצטרף היום
+        </button>
+      </div>
+    </section> -->
+
+    <div class="video-container">
+      <video
+        autoplay
+        muted
+        loop
+        style="
+          top: 0;
+          left: 0;
+          padding: 0;
+          width: 100%;
+          height: 670px;
+          object-fit: cover;
+        "
+      >
+        <source src="./img/vid.mp4" type="video/mp4" />
+      </video>
+      <div class="text-container">
+        <h1>
+          בואו להתאמן עם אלוף ישראל בהיאבקות
+          <br />
+          מרק פופוב ולהכנס לכושר שיא
+        </h1>
+        <p>*האימונים מתאימים לכל הרמות ולכל הגילאים*</p>
+        <button type="button" class="btn1">הצטרף היום</button>
+      </div>
+    </div>
+
+    <!-- =======================CARDS========================================= -->
+    <section class="hero-section">
+      <div class="card-grid" dir="rtl">
+        <a class="card" style="padding-bottom: 80%;" href="#">
+          <div
+            class="card__background"
+            style="
+              background-image: url(https://gdb.voanews.com/3459F58F-81B8-429F-A8F8-714761E471E9_cx0_cy9_cw0_w1200_r1.jpg);
+            "
+          ></div>
+          <div class="card__content">
+            <p class="card__category">Wrestling</p>
+            <h3 class="card__heading">היאבקות חופשית</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div
+            class="card__background"
+            style="
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmjgWac02oXi1VBtUCGfIL2icZdsPpFJA6XGXF3fnP7vnA_pMAZMNULbWqbLetTR5-J_I&usqp=CAU);
+            "
+          ></div>
+          <div class="card__content">
+            <p class="card__category">MMA</p>
+            <h3 class="card__heading">היאבקות ל-MMA</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div
+            class="card__background"
+            style="
+              background-image: url(https://fitbodybootcamp.com/wp-content/uploads/workout-at-gym.jpg);
+            "
+          ></div>
+          <div class="card__content">
+            <p class="card__category">Fitness</p>
+            <h3 class="card__heading">אימונים פונקציונאלי</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div
+            class="card__background"
+            style="
+              background-image: url(data:image/jpeg;base64,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);
+            "
+          ></div>
+          <div class="card__content">
+            <p class="card__category">Fitness</p>
+            <h3 class="card__heading">תוכנית להורדת משקל/ חיטוב</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- =======================Section - 1========================================= -->
+    <section class="section more" dir="rtl">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-6 mb-3">
+            <img
+              src="./img/win.jpg"
+              class="img-fluid"
+              alt="Images"
+              style="
+                width: 859px;
+                height: 477px;
+                object-fit: cover;
+                object-position: 50% 50%;
+              "
+              width="773"
+              height="813"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="pb-3">
+              מי אני?
+              <br />
+            </h2>
+            <p>
+              קוראים לי מרק פופוב אני אלוף ישראל בהיאבקות חופשית ויוונית רומית
+              עד-65 ק"ג מחזיק גביע המדינה וחבר נבחרתת ישראל. ייצגתי את המדינה
+              בטורנירים בינלאומים הכי חזקים בעולם ביניהם אליפויות אירופה ועולם.
+              בכישוריי כמאמן היאבקות, אני מתמחה באימוני היאבקות חופשית,היאבקות
+              ל-MMA,ג'יוג'יטסו, כושר, חיטוב הגוף והכנה לתחרויות ב-MMA. עם ניסיון
+              של מעל 7 שנים כמאמן, הניסיון הזה מאפשר לי לספק אימונים מקצועיים
+              ללקוחותיי ולהתאים אותם לצרכיהם האישיים. כמו כן, אני מתמחה גם
+              בעבודה עם ספורטאים צעירים ובני נוער ועם אנשים שרוצים להתחיל לעסוק
+              בספורט בכל גיל. הכישורים שלי בליווי ובהכוונה של לקוחות מתחילים הם
+              חשובים כדי להבטיח שהם מתפתחים עם הזמן ונהנים מפעילות פיזית בריאה
+              ומהנה. לא רק שאני מתמחה בתחום, אבל כמו שאמרתי, אני גם בעצמי מאמן
+              ומתחרה, מה שמאפשר לי להיות מקצועי ככל שאפשר ומעורב. אני מאמין
+              שהניסיון הזה מאפשר לי להביא ללקוחותיי את הידע והכישורים הדרושים
+              כדי להשיג את היעדים שלהם בצורה מקצועית ובריאה.
+            </p>
+            <button class="btn1 mt-4" style="margin: 0px 284px;">
+              שנתחיל ?
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =======================Discover========================================= -->
+
+    <section
+      class="main py-5"
+      dir="rtl"
+      style="width: 100%; align-items: center;"
+    >
+      <div class="container py-4">
+        <div class="row py-3">
+          <div class="col-lg-10">
+            <!-- Head title of enter pic -->
+            <b class="m-0 wrestling">WRESTLING AND MMA TRAINING</b>
+            <h1 class="m-0">
+              מזמין אותכם להתאמן בענף
+              <br />
+              <span>החזק בעולם</span>
+              <br />
+              ! היאבקות
+              <br />
+            </h1>
+            <p
+              style="
+                text-decoration: auto;
+                color: #000000;
+                margin-top: 20px;
+                font-size: 1.2rem;
+                font-weight: bold;
+              "
+            >
+              בואו להתאמן עם אלוף ישראל בהיאבקות חופשית מרק פופוב עם וותק של
+              למעלה מ-10 שנים בספורט המקצועי ובעל תארים רבים ביניהם חבר נבחרת
+              ישראל מחזיק גביע המדינה ומדליסט בטורנירים בינלאומים * האימונים
+              מתאימים לכל הגילאים ולכל הרמות*
+            </p>
+            <!-- Join us button -->
+            <button class="btn1 mt-4" style="margin: 0px -6px;">
+              להצטרפות
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================האימונים איתי========================================= -->
+
+    <section class="services py-5">
+      <div class="container py-5 text-center">
+        <h1 style="font-weight: 750; font-size: 3rem;">האימונים איתי</h1>
+        <p>אפשרות להוסיף כיתוב</p>
+        <div class="row pt-5">
+          <div class="col-lg-4">
+            <div class="card back border-0 py-5 px-3">
+              <div class="card-body">
+                <span><i class="fa-solid fa-boxing-glove"></i></span>
+                <h5 class="py-3" style="font-weight: 800;">Wrestling</h5>
+                <p>
+                  Wrestling will be around forever. It’s been around thousands
+                  of years. It’s going to be around till the end of time
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card back border-0 py-5 px-3">
+              <div class="card-body">
+                <span><i class="fa-solid fa-uniform-martial-arts"></i></span>
+                <h5 class="py-3" style="font-weight: 800;">BJJ</h5>
+                <p>
+                  Wrestling will be around forever. It’s been around thousands
+                  of years. It’s going to be around till the end of time
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card back border-0 py-5 px-3">
+              <div class="card-body">
+                <span><i class="fa-solid fa-boxing-glove"></i></span>
+                <h5 class="py-3" style="font-weight: 800;">MMA</h5>
+                <p>
+                  Wrestling will be around forever. It’s been around thousands
+                  of years. It’s going to be around till the end of time
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-4">
+            <div class="card back border-0 py-5 px-3">
+              <div class="card-body">
+                <span><i class="fa-solid fa-dumbbell"></i></span>
+                <h5 class="py-3" style="font-weight: 800;">Crossfit</h5>
+                <p>
+                  Wrestling will be around forever. It’s been around thousands
+                  of years. It’s going to be around till the end of time
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card back border-0 py-5 px-3">
+              <div class="card-body">
+                <span><i class="fa-solid fa-boxing-glove"></i></span>
+                <h5 class="py-3" style="font-weight: 800;">Weight Lifting</h5>
+                <p>
+                  Wrestling will be around forever. It’s been around thousands
+                  of years. It’s going to be around till the end of time
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card back border-0 py-5 px-3">
+              <div class="card-body">
+                <span><i class="fa-solid fa-boxing-glove"></i></span>
+                <h5 class="py-3" style="font-weight: 800;">Wrestling to MMA</h5>
+                <p>
+                  Wrestling will be around forever. It’s been around thousands
+                  of years. It’s going to be around till the end of time
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================course========================================= -->
+
+    <section class="course py-5 bg-light" style="margin-right: -20px;">
+      <div class="container py-5">
+        <h1 class="text-center">POPULAR COURSES</h1>
+        <p class="text-center">
+          אנחנו מציעים את הספריית וידאו עם מעל 200 הדרכות שונות מהלוחמים החזקים
+          בארץ ובעולם
+        </p>
+        <div class="row py-5">
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="./img/dopa.work.jpg" class="img-fluid" alt="Images" />
+              <div class="card-body" style="margin-top: 20px;">
+                <h3 class="m-0">אימוני כושר</h3>
+                <p>מאמן: מרק פופוב</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="./img/fight.jpg" class="img-fluid" alt="Images" />
+              <div class="card-body" style="margin-top: 20px;">
+                <h3 class="m-0">היאבקות</h3>
+                <p>מאמן: מרק פופוב</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="./img/me.jpg" class="img-fluid" alt="Images" />
+              <div class="card-body" style="margin-top: 20px;">
+                <h3 class="m-0">MMA היאבקות</h3>
+                <p>מאמן: מרק פופוב</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="./img/win.jpg" class="img-fluid" alt="Images" />
+              <div class="card-body" style="margin-top: 20px;">
+                <h3 class="m-0">הגנות רגליים</h3>
+                <p>מאמן: מרק פופוב</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 m-auto">
+            <button class="btn1">לראות את כל הקורסים</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================our gallery========================================= -->
+
+    <section class="carousel-slide py-5">
+      <div class="container-fluid py-5">
+        <h1 class="text-center">Instagram</h1>
+        <p class="text-center">תמונות מהאימונים שלנו</p>
+      </div>
+    </section>
+
+    <!--======================footer========================================= -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-widget">
+              <h4>About Us</h4>
+              <p>
+                We are a company that specializes in providing quality services
+                to our clients. Contact us today to learn more.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-widget">
+              <h4>Contact Us</h4>
+              <ul>
+                <li>
+                  <a href="mailto:markpopov7777@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                    Markpopov7777@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+972546825863">
+                    <i class="fa fa-phone"></i>
+                    +972-546-825863
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/place/Shalom+Aleichem+St+8,+Or+Yehuda/@32.0315234,34.8438464,17z/data=!4m6!3m5!1s0x151d4a960fbaad7b:0xa12e4545351e42d6!8m2!3d32.0315189!4d34.8464213!16s%2Fg%2F11dzp7s_k8"
+                  >
+                    <i class="fa fa-map-marker"></i>
+                    Tel aviv
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-widget">
+              <h4>Stay Connected</h4>
+              <p>
+                Follow us on social media to stay up-to-date with our latest
+                news and offers.
+              </p>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.tiktok.com/discover/dopa-gym">
+                    <i class="fab fa-tiktok"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/mark_popov.wrestling/">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="https://api.whatsapp.com/send?phone=+972546825863">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copy">
+              <p>
+                &copy; Mark Wrestling All Rights Reserved. Copyright © 2023 Mark
+                Wrestling.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ======================= script ============================= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,557 @@
+* {
+  padding: 0px;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: Smooth;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  color: white;
+  background: black;
+  z-index: 2;
+  overflow-y: hidden;
+}
+
+.nav-link {
+  color: white;
+  width: 100%;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand:hover {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+
+span {
+  color: rgb(91, 192, 222);
+  cursor: pointer;
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+********************.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  transition: color 0.3s ease-in-out; /* Add transition effect for color change */
+}
+
+.nav-item:hover .nav-link {
+  text-shadow: 2px 2px 8px rgba(0, 140, 186, 2); /* Adjust the values to increase the shadow's dominance */
+  box-shadow: 0px 0px 10px 2px rgb(252, 247, 247); /* Adjust the values to increase the intensity */
+  color: rgba(0, 140, 186, 1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+***************************
+/* .nav-link:hover {
+  background-color: #008cba; 
+  border-radius: 20px;
+  color: white;
+  text-shadow: 2px 2px 5px#008cba;
+} */
+
+.d-flex {
+  font-family: 'Dancing Script', cursive;
+  color: RGB(2, 200, 216);
+}
+/*=======================main title(WRESTLING AND MMA TRAINING)=========================================*/
+
+.btn1 {
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  color: #008cba;
+  border: 2px solid #008cba;
+  padding: 5px 50px;
+  text-align: center;
+  display: inline-block !important;
+  font-size: 16px;
+  margin: 25px -95px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  align-items: center;
+}
+
+.btn1:hover {
+  background-color: #008cba;
+  border-radius: 5px;
+  transition: all 0.4s;
+  color: #dee2e6;
+}
+
+.mt-4 {
+  margin: 4px 559px;
+}
+
+/*=======================details=========================================*/
+:root {
+  --background-dark: #2d3548;
+  --text-light: rgba(255, 255, 255, 0.6);
+  --text-lighter: rgba(255, 255, 255, 0.9);
+  --bs-border-color-translucent: rgba(255, 255, 255, 0.17);
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+  --width-container: 1600px;
+}
+
+.hero-section {
+  display: grid;
+  min-height: 100%;
+  justify-content: center;
+  /* שים לב לצמצום מרווח כדי שהכרטיסיות יבצבצו */
+  /* padding: var(--spacing-xxl) var(--spacing-l); */
+  padding: calc(0.9 * var(--spacing-xxl)) calc(0.9 * var(--spacing-l));
+}
+
+/* .card-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: var(--spacing-l);
+  grid-row-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  width: 100%;
+} */
+
+/* @media (min-width: 960px) {
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+} */
+
+.card:before {
+  content: '';
+}
+
+.card__background {
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--spacing-l);
+  bottom: 0;
+  filter: brightness(0.75) saturate(1.2) contrast(0.85);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: center;
+  transform: scale(1) translateZ(0);
+  transition: filter 200ms linear, transform 200ms linear;
+  -webkit-transform: scale(1) translateZ(0);
+  -moz-transform: scale(1) translateZ(0);
+  -ms-transform: scale(1) translateZ(0);
+  -o-transform: scale(1) translateZ(0);
+}
+
+.card:hover .card__background {
+  transform: scale(1.05) translateZ(0);
+}
+
+.card-grid:hover > .card:not(:hover) .card__background {
+  filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+}
+
+.card__content {
+  left: 0;
+  padding: var(--spacing-l);
+  position: absolute;
+  top: 0;
+}
+
+.card__category {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-s);
+  text-transform: uppercase;
+}
+
+.card__heading {
+  color: var(--text-lighter);
+  font-size: 1.9rem;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 1.5);
+  line-height: 1.4;
+  word-spacing: 100vw;
+}
+
+/*=========================מי אני=========================================*/
+.more {
+  padding-bottom: 3rem !important;
+}
+.more h2 {
+  font-weight: 500;
+}
+
+.more p {
+  font-size: lightest;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.section more py-5 {
+  padding-top: 1rem;
+}
+
+/*=========================discover=========================================*/
+
+.discover h1 {
+  max-width: 900px;
+  max-height: 85vh;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.85);
+}
+
+.wrestling {
+  font-size: 1.2rem;
+}
+
+/*=======================main pic=========================================*/
+
+.main {
+  background: url('./img/mark-wrestling.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  height: 80%;
+  background-attachment: fixed;
+}
+
+/*=======================main title(WRESTLING AND MMA TRAINING)=========================================*/
+/* .col-lg-10 {
+  font-size: 1rem;
+  font-weight: 800;
+  text-shadow: 1.5px 1.5px 8px rgb(255 255 255 / 50%);
+  white-space: nowrap;
+  width: 500px;
+  height: 450px;
+  right: 20%;
+  left: 0%;
+}
+
+.col-lg-10 p {
+  text-decoration: none;
+  text-shadow: 10px 10px 20px rgb(255 255 255, 0.5);
+}
+/*=======================main words(מזמין אותכם...)=========================================*/
+.main h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  text-shadow: 1.5px 1.5px 8px rgb(255 255 255 / 50%);
+  overflow: hidden;
+}
+*/
+
+/*=========================services=========================================*/
+
+.services h1 {
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+
+.services h5 {
+  font-weight: 700;
+}
+
+.fa-solid {
+  font-size: 2rem;
+}
+
+.back:hover .fa-solid {
+  color: #0402ff;
+}
+
+/* Style the icon */
+.services .fa-wrestling {
+  color: #666;
+  font-size: 2rem;
+}
+
+/* Change the color on hover */
+.services .back:hover .fa-wrestling {
+  color: #0402ff;
+}
+
+/*=========================המלצות =========================================*/
+
+/*=========================gallery=========================================*/
+
+.slider-wrapper img {
+  height: 500x;
+  width: 50px;
+}
+
+/*=========================contact=========================================*/
+footer {
+  background-color: #dee2e6;
+  padding: 30px 0;
+  font-size: 16px;
+}
+
+.footer-widget {
+  flex-basis: 33.33%;
+}
+
+.footer-widget h4 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-widget p {
+  margin-bottom: 20px;
+}
+
+.footer-widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-widget ul li {
+  margin-bottom: 10px;
+}
+
+.footer-widget ul li i {
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #0d6efd;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  text-decoration: auto;
+}
+
+.social-icons a:hover {
+  color: #333;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #111;
+}
+
+@media (min-width: 768px) {
+  .footer-widget {
+    flex-basis: auto;
+  }
+}
+
+.footer-widget ul li a {
+  color: #555;
+  display: contents;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-widget ul li a i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer-widget ul li a:hover {
+  color: #007bff;
+}
+
+/* =================================================================*/
+/* SOME CHANGES TO TRY */
+.text-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+  max-width: 90%;
+  padding: 0 20px;
+}
+
+.text-container h1 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  height: 50px;
+}
+.text-container p {
+  color: white;
+}
+
+.text-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+  height: 300px;
+  width: 600px;
+  align-items: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+}
+form h3 {
+  overflow: hidden;
+}
+.card {
+  overflow: hidden;
+}
+
+.card:hover {
+  border-radius: var(--spacing-l);
+}
+
+/* DISCOVER */
+h1,
+h3,
+h4 {
+  overflow: hidden;
+}
+/* CARDS RESPONSIVE TERITORIAL */
+
+@media (max-width: 1045px) {
+  .card-grid {
+    display: grid;
+    /* grid-template-rows: repeat(4, 1fr); */
+    /* grid-template-columns: 0; */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: var(--spacing-l);
+    grid-row-gap: var(--spacing-l);
+    max-width: var(--width-container);
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .text-container {
+    z-index: 1;
+    width: 100%;
+    max-width: 90%;
+    top: 51.5%;
+    padding: 0;
+    margin: 0;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .div-container {
+    display: block;
+  }
+}
+.card-grid {
+  display: grid;
+  /* grid-template-rows: repeat(4, 1fr); */
+  /* grid-template-columns: 0; */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: var(--spacing-l);
+  grid-row-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.text-container {
+  z-index: 1;
+  width: 100%;
+  max-width: 90%;
+  top: 51.5%;
+  padding: 0;
+  margin: 0;
+  transform: translateX(-50%);
+  text-align: center;
+}
+/* ******************************* */
+.card {
+  /* background-color: var(--background-dark); */
+  border-radius: var(--spacing-l);
+  overflow: hidden;
+  position: relative;
+}
+
+.card__background {
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--spacing-l);
+  bottom: 0;
+  filter: brightness(0.75) saturate(1.2) contrast(0.85);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: center;
+  transform: scale(1) translateZ(0);
+  transition: filter 200ms linear, transform 200ms linear;
+  -webkit-transform: scale(1) translateZ(0);
+  -moz-transform: scale(1) translateZ(0);
+  -ms-transform: scale(1) translateZ(0);
+  -o-transform: scale(1) translateZ(0);
+}
+
+.card__content {
+  padding: var(--spacing-l);
+  position: relative;
+}
+
+.card__category {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-s);
+  text-transform: uppercase;
+}
+
+.card__heading {
+  color: var(--text-lighter);
+  font-size: 1.9rem;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 1.5);
+  line-height: 1.4;
+  word-spacing: 100vw;
+}
+
+.card:hover .card__background {
+  transform: scale(1.05) translateZ(0);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  margin: 0 auto;
+}
+a {
+  text-decoration: none !important;
+}
